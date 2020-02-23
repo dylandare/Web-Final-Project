@@ -63,7 +63,7 @@
 
 <?php
 
-$db = new mysqli('localhost', 'root', '', 'practice');
+$db = new mysqli('localhost', '58548', 'dylan990222', '58548db2');
 if(mysqli_connect_errno()){
 echo '<p>Error connecting to database</p>';
 exit;
